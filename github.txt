@@ -1,0 +1,21 @@
+git remote set-url origin https://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@github.com/VinterYoung5/ffmpeg4.43_forAndroid.git/
+git remote set-url origin https://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@github.com/VinterYoung5/skill.git
+git remote set-url origin https://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@github.com/VinterYoung5/ffmpeg_extratcor.git
+git remote set-url origin https://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@github.com/VinterYoung5/ffmpeg_utils.git
+
+
+git push -u origin main
+
+
+
+
+…or create a new repository on the command line
+echo "# skill" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/VinterYoung5/skill.git
+git push -u origin main
+
+
