@@ -3,10 +3,13 @@ https://github.com/settings/tokens
 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
 
 git clone git@github.com:VinterYoung5/skill.git
+git clone git@github.com:VinterYoung5/ffmpeg4.43_forAndroid.git
+git clone git@github.com:VinterYoung5/ffmpeg_extratcor.git
+git clone git@github.com:VinterYoung5/ffmpeg_utils.git
 
 git remote set-url origin https://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@github.com/VinterYoung5/ffmpeg4.43_forAndroid.git/
 git remote set-url origin https://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@github.com/VinterYoung5/skill.git
-git remote set-url origin git@github.com:VinterYoung5/VinterYoung5/ffmpeg_extratcor.git
+git remote set-url origin git@github.com:VinterYoung5/ffmpeg_extratcor.git
 git remote set-url origin https://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@github.com/VinterYoung5/ffmpeg_utils.git
 
 
@@ -24,3 +27,33 @@ git remote add origin https://github.com/VinterYoung5/ffmpeg_utils.git
 git remote add origin https://github.com/VinterYoung5/ffmpeg4.43_forAndroid.git/
 
 git push -u origin main
+
+
+
+
+播放:player
+	倍速(高倍速丢帧) (变速不变调)
+	倒播
+	多路播放(同时控制,分别控制)
+	区间循环播放
+	精确帧seek
+	单帧播放倒退
+
+媒体文件编辑:Editor
+	1.基础功能
+		精确帧编辑
+		区间播放(区间预览)
+	2.stream级操作
+		音视频混合
+		长度裁剪
+		多段拼接
+		改封装
+		改帧率
+	3.图像级操作
+		质量压缩
+		帧级帧率处理
+		画面缩放拉升
+		画面裁剪
+		水印
+		抽yuv到jpeg/gif
+
